@@ -4,7 +4,7 @@ n=navigator,
 ua=n.userAgent;
 export function userDeviceInfo(id) {
     const $id=d.getElementById(id),
-    //estos objetos son para las redirecciones o tomas de deciones 
+    //estos objetos son para las  tomas de deciones 
     isMobile={
         android:()=>ua.match(/android/i),//aqui estoy buscando si en la cadena de texto del ua esta la palabra android
         ios:()=>ua.match(/iphone|ipad|ipod/i),
